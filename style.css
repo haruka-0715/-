@@ -1,0 +1,65 @@
+/* 全体 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* プロフェッショナルなフォントに変更 */
+    text-align: center;
+    background-color: #121212; /* ダークモードの背景色 */
+    color: #e0e0e0; /* 明るい文字色 */
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #4CAF50; /* アクセントカラー */
+    margin-bottom: 30px;
+    letter-spacing: 2px; /* 文字間隔を広げてスタイリッシュに */
+}
+
+/* 動画コンテナ */
+.video-container {
+    margin-bottom: 30px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* 影をつけて立体感を出す */
+}
+
+video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* ボタンコンテナ */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* ボタン間の余白を少し増やす */
+}
+
+/* ボタン */
+button {
+    font-size: 1.1rem; /* 少し大きめのフォントサイズ */
+    font-weight: bold;
+    padding: 15px 30px;
+    width: 80%;
+    max-width: 400px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px; /* 角を丸くして柔らかい印象に */
+    background-color: #4CAF50; /* アクセントカラー */
+    color: white;
+    transition: background-color 0.3s, transform 0.2s; /* ホバー時のアニメーション効果 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #5cb85c; /* ホバー時に色を少し明るくする */
+    transform: translateY(-2px); /* 少し上に浮き上がるアニメーション */
+}
+
+button:active {
+    background-color: #3e8e41; /* クリック時に色を濃くする */
+    transform: translateY(0);
+}
